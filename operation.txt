@@ -1,0 +1,8 @@
+# config
+1. sdk install springboot
+2. 
+
+# references
+1. https://start.spring.io
+2. https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started-installing-the-cli
+
