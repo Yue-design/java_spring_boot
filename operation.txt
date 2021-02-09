@@ -1,8 +1,23 @@
 # config
 1. sdk install springboot
-2. 
+2. brew install postgresql
+3. brew services start postgresql
+4. psql postgres
+5. brew services stop postgresql
+
+# resources
+1. https://github.com/dlbunker/ps-first-spring-boot-app/tree/master/database
 
 # references
 1. https://start.spring.io
 2. https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started-installing-the-cli
+3. https://wiki.postgresql.org/wiki/Homebrew
+4. https://stackoverflow.com/questions/51992362/completely-remove-postgres-after-brew-uninstall-osx
+5. 
 
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.2</version>
+		</dependency>

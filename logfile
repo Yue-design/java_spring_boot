@@ -1,0 +1,25 @@
+2021-02-08 15:13:22.662 EST [3346] LOG:  starting PostgreSQL 13.1 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.27), 64-bit
+2021-02-08 15:13:22.664 EST [3346] LOG:  listening on IPv6 address "::1", port 5432
+2021-02-08 15:13:22.664 EST [3346] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-02-08 15:13:22.666 EST [3346] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-02-08 15:13:22.671 EST [3347] LOG:  database system was shut down at 2021-02-08 15:13:13 EST
+2021-02-08 15:13:22.675 EST [3346] LOG:  database system is ready to accept connections
+2021-02-08 15:13:30.700 EST [3359] FATAL:  database "yue" does not exist
+2021-02-08 15:13:44.603 EST [3368] FATAL:  role "conference_app" does not exist
+2021-02-08 15:14:50.583 EST [3407] FATAL:  role "conference_demo" does not exist
+2021-02-08 15:14:52.885 EST [3410] FATAL:  role "conference_app" does not exist
+2021-02-08 15:18:21.885 EST [3523] FATAL:  role "conference_app" does not exist
+2021-02-08 15:18:27.047 EST [3530] FATAL:  role "." does not exist
+2021-02-08 15:18:33.886 EST [3532] FATAL:  role "conference_demo" does not exist
+2021-02-08 15:18:44.605 EST [3539] FATAL:  database "yue" does not exist
+2021-02-08 15:23:07.283 EST [4185] FATAL:  role "conference_app" does not exist
+2021-02-08 15:23:49.031 EST [4212] FATAL:  role "database" does not exist
+2021-02-08 15:25:52.823 EST [3346] LOG:  server process (PID 4412) was terminated by signal 9: Killed: 9
+2021-02-08 15:25:52.824 EST [3346] LOG:  terminating any other active server processes
+2021-02-08 15:25:52.825 EST [3351] WARNING:  terminating connection because of crash of another server process
+2021-02-08 15:25:52.825 EST [3351] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2021-02-08 15:25:52.825 EST [3351] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2021-02-08 15:25:52.829 EST [3346] LOG:  all server processes terminated; reinitializing
+2021-02-08 15:25:52.842 EST [3346] LOG:  startup process (PID 4413) was terminated by signal 9: Killed: 9
+2021-02-08 15:25:52.842 EST [3346] LOG:  aborting startup due to startup process failure
+2021-02-08 15:25:52.847 EST [3346] LOG:  database system is shut down
